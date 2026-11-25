@@ -9,8 +9,9 @@
     --bg: #0f1419;
     --fg: #e7ecf1;
     --muted: #9aa7b5;
-    --link: #7ec8ff;
+    --accent: #7ec8ff;
     --line: #243040;
+    --ok: #8fd19e;
   }
   * { box-sizing: border-box; }
   body {
@@ -46,20 +47,18 @@
     color: var(--muted);
     margin: 0 0 0.5rem;
   }
+  .tag {
+    display: inline-block;
+    margin-left: 0.35rem;
+    font-size: 0.72rem;
+    color: var(--accent);
+  }
   video {
     display: block;
     width: 100%;
     height: auto;
     background: #000;
     border-radius: 4px;
-  }
-  a {
-    color: var(--link);
-    word-break: break-all;
-  }
-  .cite {
-    margin: 0.65rem 0 0;
-    font-size: 0.85rem;
   }
   .ctl {
     display: flex;
@@ -68,7 +67,7 @@
     align-items: center;
     margin: 0.65rem 0 0;
   }
-  .dl {
+  .dl, .copy {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -82,76 +81,134 @@
     font-size: 0.95rem;
     line-height: 1.2;
     cursor: pointer;
+    font-family: inherit;
   }
-  .dl:hover, .dl:focus-visible {
-    border-color: var(--link);
-    color: var(--link);
+  .dl:hover, .dl:focus-visible,
+  .copy:hover, .copy:focus-visible {
+    border-color: var(--accent);
+    color: var(--accent);
     outline: none;
   }
-  .dl-label {
+  .dl-label, .copy-label {
     margin-left: 0.35rem;
     font-size: 0.8rem;
     color: var(--muted);
   }
-  .dl:hover .dl-label, .dl:focus-visible .dl-label { color: var(--link); }
+  .dl:hover .dl-label, .dl:focus-visible .dl-label,
+  .copy:hover .copy-label, .copy:focus-visible .copy-label { color: var(--accent); }
+  .cite {
+    margin: 0.65rem 0 0;
+    font-size: 0.85rem;
+  }
+  .cite-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    margin-top: 0.35rem;
+  }
+  .url-text {
+    flex: 1;
+    margin: 0;
+    padding: 0.45rem 0.55rem;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: #121a22;
+    color: var(--fg);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.72rem;
+    line-height: 1.35;
+    word-break: break-all;
+    user-select: all;
+  }
+  .copy.copied {
+    border-color: var(--ok);
+    color: var(--ok);
+  }
+  .copy.copied .copy-label { color: var(--ok); }
   footer {
     margin-top: 2rem;
     font-size: 0.8rem;
     color: var(--muted);
   }
+  code { font-size: 0.85em; }
 </style>
 </head>
 <body>
 <main>
   <h1>Humor clips (preview)</h1>
-  <p class="lede">Five 3.2s single-clip MP4s from JA humor posts published within the last 6 hours (Asia/Tokyo). Open without a private clone.</p>
+  <p class="lede">2 of 10 requested · 3.2s single-clip MP4s from JA humor posts within the last 6 hours (Asia/Tokyo). Status URL is plain text + copy (not a link) so pasting into X stays text-only. Shortfall 8 — stock aged after Collect; only 2 posts still ≤6h at select.</p>
 
   <article>
-    <p class="label">Clip 1 · @chizumin_spica · 0.6h ago (JST)</p>
-    <video controls playsinline preload="metadata" src="clips/clip-01-2125391432538259554.mp4"></video>
+    <p class="label">Clip 1 · @tsuyonew_rin · 5.9h ago (JST)<span class="tag">おはよう</span></p>
+    <video controls playsinline preload="metadata" src="clips/clip-01-2125390563801460897.mp4"></video>
     <div class="ctl">
-      <a class="dl" href="clips/clip-01-2125391432538259554.mp4" download="clip-01-2125391432538259554.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
+      <a class="dl" href="clips/clip-01-2125390563801460897.mp4" download="clip-01-2125390563801460897.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
     </div>
-    <p class="cite">X: <a href="https://x.com/chizumin_spica/status/2125391432538259554" target="_blank" rel="noopener">https://x.com/chizumin_spica/status/2125391432538259554</a></p>
+    <div class="cite">
+      <span>X status URL (plain text)</span>
+      <div class="cite-row">
+        <p class="url-text" id="url-1">https://x.com/tsuyonew_rin/status/2125390563801460897</p>
+        <button type="button" class="copy" data-copy="url-1" aria-label="Copy URL">📋<span class="copy-label">Copy</span></button>
+      </div>
+    </div>
   </article>
   <article>
-    <p class="label">Clip 2 · @tenten_kohaku · 2.5h ago (JST)</p>
-    <video controls playsinline preload="metadata" src="clips/clip-02-2125361985743474965.mp4"></video>
+    <p class="label">Clip 2 · @chizumin_spica · 5.8h ago (JST)</p>
+    <video controls playsinline preload="metadata" src="clips/clip-02-2125391432538259554.mp4"></video>
     <div class="ctl">
-      <a class="dl" href="clips/clip-02-2125361985743474965.mp4" download="clip-02-2125361985743474965.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
+      <a class="dl" href="clips/clip-02-2125391432538259554.mp4" download="clip-02-2125391432538259554.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
     </div>
-    <p class="cite">X: <a href="https://x.com/tenten_kohaku/status/2125361985743474965" target="_blank" rel="noopener">https://x.com/tenten_kohaku/status/2125361985743474965</a></p>
-  </article>
-  <article>
-    <p class="label">Clip 3 · @nemuri_shokuzai · 5.4h ago (JST)</p>
-    <video controls playsinline preload="metadata" src="clips/clip-03-2125317839016075319.mp4"></video>
-    <div class="ctl">
-      <a class="dl" href="clips/clip-03-2125317839016075319.mp4" download="clip-03-2125317839016075319.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
+    <div class="cite">
+      <span>X status URL (plain text)</span>
+      <div class="cite-row">
+        <p class="url-text" id="url-2">https://x.com/chizumin_spica/status/2125391432538259554</p>
+        <button type="button" class="copy" data-copy="url-2" aria-label="Copy URL">📋<span class="copy-label">Copy</span></button>
+      </div>
     </div>
-    <p class="cite">X: <a href="https://x.com/nemuri_shokuzai/status/2125317839016075319" target="_blank" rel="noopener">https://x.com/nemuri_shokuzai/status/2125317839016075319</a></p>
-  </article>
-  <article>
-    <p class="label">Clip 4 · @ochapa_sakura · 2.9h ago (JST)</p>
-    <video controls playsinline preload="metadata" src="clips/clip-04-2125356560646053892.mp4"></video>
-    <div class="ctl">
-      <a class="dl" href="clips/clip-04-2125356560646053892.mp4" download="clip-04-2125356560646053892.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
-    </div>
-    <p class="cite">X: <a href="https://x.com/ochapa_sakura/status/2125356560646053892" target="_blank" rel="noopener">https://x.com/ochapa_sakura/status/2125356560646053892</a></p>
-  </article>
-  <article>
-    <p class="label">Clip 5 · @lilygakuyuina · 2.9h ago (JST)</p>
-    <video controls playsinline preload="metadata" src="clips/clip-05-2125355621201654107.mp4"></video>
-    <div class="ctl">
-      <a class="dl" href="clips/clip-05-2125355621201654107.mp4" download="clip-05-2125355621201654107.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
-    </div>
-    <p class="cite">X: <a href="https://x.com/lilygakuyuina/status/2125355621201654107" target="_blank" rel="noopener">https://x.com/lilygakuyuina/status/2125355621201654107</a></p>
   </article>
 
   <footer>
     Source stock: <code>Githitosh/githito.xapi</code> branch <code>api</code> · <code>v1/stock-humor-ja.json</code>
-    (made 2026-11-25T01:22:27Z; 20 posts ≤6h at select).
+    (made 2026-11-25T01:31:13Z; 2 posts ≤6h at select · shortfall 8 · おはよう available 1).
     Encoded with <code>hosts/reply_movies/encode-one.html</code> (URL burned on frames). No secrets in this repo.
   </footer>
 </main>
+<script>
+(function () {
+  function label(btn, text, copied) {
+    var span = btn.querySelector('.copy-label');
+    if (span) span.textContent = text;
+    btn.classList.toggle('copied', !!copied);
+  }
+  document.querySelectorAll('.copy').forEach(function (btn) {
+    btn.addEventListener('click', async function () {
+      var id = btn.getAttribute('data-copy');
+      var el = id && document.getElementById(id);
+      var text = el ? (el.textContent || '').trim() : '';
+      if (!text) return;
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(text);
+        } else {
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          ta.setAttribute('readonly', '');
+          ta.style.position = 'fixed';
+          ta.style.left = '-9999px';
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+        }
+        label(btn, 'Copied', true);
+        setTimeout(function () { label(btn, 'Copy', false); }, 1600);
+      } catch (e) {
+        label(btn, 'Failed', false);
+        setTimeout(function () { label(btn, 'Copy', false); }, 1600);
+      }
+    });
+  });
+})();
+</script>
 </body>
 </html>

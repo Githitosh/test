@@ -100,6 +100,12 @@
     margin: 0.65rem 0 0;
     font-size: 0.85rem;
   }
+  .cite-note {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 0.72rem;
+    color: var(--muted);
+  }
   .cite-row {
     display: flex;
     gap: 0.5rem;
@@ -136,16 +142,17 @@
 <body>
 <main>
   <h1>Humor clips (preview)</h1>
-  <p class="lede">2 of 10 requested · 3.2s single-clip MP4s from JA humor posts within the last 6 hours (Asia/Tokyo). Status URL is plain text + copy (not a link) so pasting into X stays text-only. Shortfall 8 — stock aged after Collect; only 2 posts still ≤6h at select.</p>
+  <p class="lede">2 of 10 requested · 3.2s single-clip MP4s from JA humor posts within the last 6 hours (Asia/Tokyo). Status URL is plain text + Copy (clean <code>https://x.com/…</code>, openable when pasted). No <code>&lt;a href&gt;</code> on this page. Shortfall 8 — waiting on Collect for ≤6h refill.</p>
 
   <article>
     <p class="label">Clip 1 · @tsuyonew_rin · 5.9h ago (JST)<span class="tag">おはよう</span></p>
     <video controls playsinline preload="metadata" src="clips/clip-01-2125390563801460897.mp4"></video>
     <div class="ctl">
-      <a class="dl" href="clips/clip-01-2125390563801460897.mp4" download="clip-01-2125390563801460897.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
+      <button type="button" class="dl" data-dl="clips/clip-01-2125390563801460897.mp4" data-name="clip-01-2125390563801460897.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></button>
     </div>
     <div class="cite">
       <span>X status URL (plain text)</span>
+      <span class="cite-note">Copy = clean https URL (openable). X may still show a link card when pasted — that is X’s behavior.</span>
       <div class="cite-row">
         <p class="url-text" id="url-1">https://x.com/tsuyonew_rin/status/2125390563801460897</p>
         <button type="button" class="copy" data-copy="url-1" aria-label="Copy URL">📋<span class="copy-label">Copy</span></button>
@@ -156,10 +163,11 @@
     <p class="label">Clip 2 · @chizumin_spica · 5.8h ago (JST)</p>
     <video controls playsinline preload="metadata" src="clips/clip-02-2125391432538259554.mp4"></video>
     <div class="ctl">
-      <a class="dl" href="clips/clip-02-2125391432538259554.mp4" download="clip-02-2125391432538259554.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
+      <button type="button" class="dl" data-dl="clips/clip-02-2125391432538259554.mp4" data-name="clip-02-2125391432538259554.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></button>
     </div>
     <div class="cite">
       <span>X status URL (plain text)</span>
+      <span class="cite-note">Copy = clean https URL (openable). X may still show a link card when pasted — that is X’s behavior.</span>
       <div class="cite-row">
         <p class="url-text" id="url-2">https://x.com/chizumin_spica/status/2125391432538259554</p>
         <button type="button" class="copy" data-copy="url-2" aria-label="Copy URL">📋<span class="copy-label">Copy</span></button>
@@ -180,6 +188,7 @@
     if (span) span.textContent = text;
     btn.classList.toggle('copied', !!copied);
   }
+
   document.querySelectorAll('.copy').forEach(function (btn) {
     btn.addEventListener('click', async function () {
       var id = btn.getAttribute('data-copy');
@@ -205,6 +214,31 @@
       } catch (e) {
         label(btn, 'Failed', false);
         setTimeout(function () { label(btn, 'Copy', false); }, 1600);
+      }
+    });
+  });
+
+  /* ⬇️ without a permanent <a href> on the page */
+  document.querySelectorAll('.dl[data-dl]').forEach(function (btn) {
+    btn.addEventListener('click', async function () {
+      var href = btn.getAttribute('data-dl');
+      var name = btn.getAttribute('data-name') || 'clip.mp4';
+      if (!href) return;
+      try {
+        var res = await fetch(href);
+        if (!res.ok) throw new Error('fetch failed');
+        var blob = await res.blob();
+        var obj = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = obj;
+        a.download = name;
+        a.rel = 'noopener';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(function () { URL.revokeObjectURL(obj); }, 2000);
+      } catch (e) {
+        window.open(href, '_blank', 'noopener');
       }
     });
   });

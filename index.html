@@ -61,6 +61,39 @@
     margin: 0.65rem 0 0;
     font-size: 0.85rem;
   }
+  .ctl {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 0.65rem 0 0;
+  }
+  .dl {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.8em;
+    padding: 0.4rem 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: #1a2430;
+    color: var(--fg);
+    text-decoration: none;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    cursor: pointer;
+  }
+  .dl:hover, .dl:focus-visible {
+    border-color: var(--link);
+    color: var(--link);
+    outline: none;
+  }
+  .dl-label {
+    margin-left: 0.35rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .dl:hover .dl-label, .dl:focus-visible .dl-label { color: var(--link); }
   footer {
     margin-top: 2rem;
     font-size: 0.8rem;
@@ -76,18 +109,27 @@
   <article>
     <p class="label">Clip 1 · @rougebook_runa</p>
     <video controls playsinline preload="metadata" src="clips/clip-01-2125205699475243288.mp4"></video>
+    <div class="ctl">
+      <a class="dl" href="clips/clip-01-2125205699475243288.mp4" download="clip-01-2125205699475243288.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
+    </div>
     <p class="cite">X: <a href="https://x.com/rougebook_runa/status/2125205699475243288" target="_blank" rel="noopener">https://x.com/rougebook_runa/status/2125205699475243288</a></p>
   </article>
 
   <article>
     <p class="label">Clip 2 · @HBN_mii</p>
     <video controls playsinline preload="metadata" src="clips/clip-02-2125254179518361642.mp4"></video>
+    <div class="ctl">
+      <a class="dl" href="clips/clip-02-2125254179518361642.mp4" download="clip-02-2125254179518361642.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
+    </div>
     <p class="cite">X: <a href="https://x.com/HBN_mii/status/2125254179518361642" target="_blank" rel="noopener">https://x.com/HBN_mii/status/2125254179518361642</a></p>
   </article>
 
   <article>
     <p class="label">Clip 3 · @sora__bugg</p>
     <video controls playsinline preload="metadata" src="clips/clip-03-2125180178565640405.mp4"></video>
+    <div class="ctl">
+      <a class="dl" href="clips/clip-03-2125180178565640405.mp4" download="clip-03-2125180178565640405.mp4" aria-label="Download MP4" title="Download">⬇️<span class="dl-label">Download</span></a>
+    </div>
     <p class="cite">X: <a href="https://x.com/sora__bugg/status/2125180178565640405" target="_blank" rel="noopener">https://x.com/sora__bugg/status/2125180178565640405</a></p>
   </article>
 

@@ -12,7 +12,7 @@ After GitHub Pages is enabled on `main` (source: Deploy from a branch → `/` ro
 
 | Path | What |
 | --- | --- |
-| `index.html` | Simple list: video + clickable X status URL |
+| `index.html` | Simple list: video + ⬇️ MP4 download + clickable X status URL |
 | `clips/*.mp4` | Three single-clip Phone MP4s (URL burned on frames) |
 | `clips/manifest.json` | Clip metadata (id, handle, status URL) |
 | `.nojekyll` | Allow Pages to serve as-is |

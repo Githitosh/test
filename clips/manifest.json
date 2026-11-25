@@ -1,7 +1,7 @@
 {
-  "selectedAt": "2026-11-25T21:56:39.544Z",
+  "selectedAt": "2026-11-25T22:11:59.074Z",
   "timezone": "Asia/Tokyo",
-  "kind": "low-follower-50-singles-fulltext",
+  "kind": "low-follower-50-exact-cut3",
   "requested": 50,
   "clipDurationSec": 3.2,
   "stock": {
@@ -24,9 +24,11 @@
       "textPreview": "好き 好きって言わなきゃ、、、",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 401328,
-      "fullText": "好きって言わなきゃ、、、",
-      "excerpt": "好き"
+      "bytes": 394005,
+      "exactText": "好きって言わなきゃ、、、",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "好き",
+      "fullText": "好きって言わなきゃ、、、"
     },
     {
       "n": 2,
@@ -41,9 +43,11 @@
       "textPreview": "イメチェン 今日イメチェンとかする、32514",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 416028,
-      "fullText": "今日イメチェンとかする、32514",
-      "excerpt": "イメチェン"
+      "bytes": 401433,
+      "exactText": "今日イメチェンとかする、32514",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "イメチェン",
+      "fullText": "今日イメチェンとかする、32514"
     },
     {
       "n": 3,
@@ -58,9 +62,11 @@
       "textPreview": "おはよ おはよう🌞",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 418042,
-      "fullText": "おはよう🌞",
-      "excerpt": "おはよ"
+      "bytes": 406681,
+      "exactText": "おはよう🌞",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "おはよ",
+      "fullText": "おはよう🌞"
     },
     {
       "n": 4,
@@ -75,9 +81,11 @@
       "textPreview": "おはよー おはよー☀️ 私は夜通し荷造りをつづけて、あと段ボール３箱分くらい…！ 残り20分タイムアタック🕐",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 496729,
-      "fullText": "おはよー☀️ 私は夜通し荷造りをつづけて、あと段ボール３箱分くらい…！ 残り20分タイムアタック🕐",
-      "excerpt": "おはよー"
+      "bytes": 473187,
+      "exactText": "おはよー☀️\n\n私は夜通し荷造りをつづけて、あと段ボール３箱分くらい…！\n残り20分タイムアタック🕐",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "おはよー",
+      "fullText": "おはよー☀️\n\n私は夜通し荷造りをつづけて、あと段ボール３箱分くらい…！\n残り20分タイムアタック🕐"
     },
     {
       "n": 5,
@@ -92,9 +100,11 @@
       "textPreview": "冬 今年の冬はどこに行こうか",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 455775,
-      "fullText": "今年の冬はどこに行こうか",
-      "excerpt": "(cutJa)"
+      "bytes": 408276,
+      "exactText": "今年の冬はどこに行こうか",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "今年の冬はどこに行こうか",
+      "fullText": "今年の冬はどこに行こうか"
     },
     {
       "n": 6,
@@ -109,9 +119,11 @@
       "textPreview": "寝 寝るご飯寝るご飯寝るバイト寝るご飯寝るご飯学校（遅刻）寝るご飯寝るご飯寝る",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 495018,
-      "fullText": "寝るご飯寝るご飯寝るバイト寝るご飯寝るご飯学校（遅刻）寝るご飯寝るご飯寝る",
-      "excerpt": "(cutJa)"
+      "bytes": 481450,
+      "exactText": "寝るご飯寝るご飯寝るバイト寝るご飯寝るご飯学校（遅刻）寝るご飯寝るご飯寝る",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "寝るご飯寝るご飯寝るバイト寝るご飯寝るご飯学校（遅刻）寝るご飯寝るご飯寝る",
+      "fullText": "寝るご飯寝るご飯寝るバイト寝るご飯寝るご飯学校（遅刻）寝るご飯寝るご飯寝る"
     },
     {
       "n": 7,
@@ -126,9 +138,11 @@
       "textPreview": "すき 和食すきすぎてこの顔( ^ᵕ^)",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 443399,
-      "fullText": "和食すきすぎてこの顔( ^ᵕ^)",
-      "excerpt": "すき"
+      "bytes": 426400,
+      "exactText": "和食すきすぎてこの顔( ^ᵕ^)",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "すき",
+      "fullText": "和食すきすぎてこの顔( ^ᵕ^)"
     },
     {
       "n": 8,
@@ -143,9 +157,11 @@
       "textPreview": "渋谷 今日は渋谷で待ってます！💜🌙 本日はあんりんセトリ！！ みんなの予想は当たるかな〜？👀 一緒に楽しもうねっ！",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 478239,
-      "fullText": "今日は渋谷で待ってます！💜🌙 本日はあんりんセトリ！！ みんなの予想は当たるかな〜？👀 一緒に楽しもうねっ！",
-      "excerpt": "渋谷"
+      "bytes": 486606,
+      "exactText": "今日は渋谷で待ってます！💜🌙\n\n本日はあんりんセトリ！！\nみんなの予想は当たるかな〜？👀\n一緒に楽しもう",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "渋谷",
+      "fullText": "今日は渋谷で待ってます！💜🌙\n\n本日はあんりんセトリ！！\nみんなの予想は当たるかな〜？👀\n一緒に楽しもう"
     },
     {
       "n": 9,
@@ -160,9 +176,11 @@
       "textPreview": "予約 こちら予約始まっています🎶",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 428343,
-      "fullText": "こちら予約始まっています🎶",
-      "excerpt": "予約"
+      "bytes": 408302,
+      "exactText": "こちら予約始まっています🎶",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "予約",
+      "fullText": "こちら予約始まっています🎶"
     },
     {
       "n": 10,
@@ -177,9 +195,11 @@
       "textPreview": "おはようーー おはようーー学校に到着❕みんなもお仕事学校行ってらっしゃいー❕",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 431537,
-      "fullText": "おはようーー学校に到着❕みんなもお仕事学校行ってらっしゃいー❕",
-      "excerpt": "おはようーー"
+      "bytes": 425930,
+      "exactText": "おはようーー学校に到着❕みんなもお仕事学校行ってらっしゃいー❕",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "おはようーー",
+      "fullText": "おはようーー学校に到着❕みんなもお仕事学校行ってらっしゃいー❕"
     },
     {
       "n": 11,
@@ -194,9 +214,11 @@
       "textPreview": "おはよう！！ みんなおはよう！！！☀️☀️",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 423002,
-      "fullText": "みんなおはよう！！！☀️☀️",
-      "excerpt": "おはよう！！"
+      "bytes": 405922,
+      "exactText": "みんなおはよう！！！☀️☀️",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "おはよう！！",
+      "fullText": "みんなおはよう！！！☀️☀️"
     },
     {
       "n": 12,
@@ -211,9 +233,11 @@
       "textPreview": "ハーフ ハーフアップおとなっぽい？",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 405913,
-      "fullText": "ハーフアップおとなっぽい？",
-      "excerpt": "ハーフ"
+      "bytes": 396234,
+      "exactText": "ハーフアップおとなっぽい？",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "ハーフ",
+      "fullText": "ハーフアップおとなっぽい？"
     },
     {
       "n": 13,
@@ -228,9 +252,11 @@
       "textPreview": "木 明日11/26（木）の21時から３人でスペースやります！！ 楽しくお喋りするので是非見にきてね👍👍",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 477058,
-      "fullText": "明日11/26（木）の21時から３人でスペースやります！！ 楽しくお喋りするので是非見にきてね👍👍",
-      "excerpt": "(cutJa)"
+      "bytes": 437038,
+      "exactText": "明日11/26（木）の21時から３人でスペースやります！！\n楽しくお喋りするので是非見にきてね👍",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "明日11/26（木）の21時から３人でスペースやります！！",
+      "fullText": "明日11/26（木）の21時から３人でスペースやります！！\n楽しくお喋りするので是非見にきてね👍"
     },
     {
       "n": 14,
@@ -245,9 +271,11 @@
       "textPreview": "配信 あいるんるんとあそぼ 配信中!!",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 419772,
-      "fullText": "あいるんるんとあそぼ 配信中!!",
-      "excerpt": "配信"
+      "bytes": 422757,
+      "exactText": "あいるんるんとあそぼ 配信中!!\nhttps://t.co/uAxW0zI9wo",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "配信",
+      "fullText": "あいるんるんとあそぼ 配信中!!\nhttps://t.co/uAxW0zI9wo"
     },
     {
       "n": 15,
@@ -262,9 +290,11 @@
       "textPreview": "愛 愛してねᴖ ̫ ᴖ",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 412808,
-      "fullText": "愛してねᴖ ̫ ᴖ",
-      "excerpt": "(cutJa)"
+      "bytes": 435881,
+      "exactText": "愛してねᴖ  ̫ ᴖ\n#TikTok https://t.co/yfCkbyI7dq",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "愛してねᴖ  ̫ ᴖ",
+      "fullText": "愛してねᴖ  ̫ ᴖ\n#TikTok https://t.co/yfCkbyI7dq"
     },
     {
       "n": 16,
@@ -279,9 +309,11 @@
       "textPreview": "おはよう おはようちゃんです🎀♩",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 425884,
-      "fullText": "おはようちゃんです🎀♩",
-      "excerpt": "おはよう"
+      "bytes": 408946,
+      "exactText": "おはようちゃんです🎀",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "おはよう",
+      "fullText": "おはようちゃんです🎀"
     },
     {
       "n": 17,
@@ -296,9 +328,11 @@
       "textPreview": "前髪 前髪切ったら左側だけ短くなっちゃって…斜めなんですけど…今日制服ライブあります、来てね…🥲🎀",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 484156,
-      "fullText": "前髪切ったら左側だけ短くなっちゃって…斜めなんですけど…今日制服ライブあります、来てね…🥲🎀",
-      "excerpt": "前髪"
+      "bytes": 533121,
+      "exactText": "前髪切ったら左側だけ短くなっちゃって…斜めなんですけど…今日制服ライブあります、来てね…🥲",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "前髪",
+      "fullText": "前髪切ったら左側だけ短くなっちゃって…斜めなんですけど…今日制服ライブあります、来てね…🥲"
     },
     {
       "n": 18,
@@ -313,9 +347,11 @@
       "textPreview": "おやすみ 体調がまだ回復しておらず本日もおやすみです。来てくださる予定だった方すみません。回復に努めます。",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 491332,
-      "fullText": "体調がまだ回復しておらず本日もおやすみです。来てくださる予定だった方すみません。回復に努めます。",
-      "excerpt": "おやすみ"
+      "bytes": 522204,
+      "exactText": "体調がまだ回復しておらず本日もおやすみです。来てくださる予定だった方すみません。回復に努めます。",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "おやすみ",
+      "fullText": "体調がまだ回復しておらず本日もおやすみです。来てくださる予定だった方すみません。回復に努めます。"
     },
     {
       "n": 19,
@@ -330,9 +366,11 @@
       "textPreview": "朗報 朗報:熱、さがる 君たちもご自愛〜！！！",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 445751,
-      "fullText": "朗報:熱、さがる 君たちもご自愛〜！！！",
-      "excerpt": "朗報"
+      "bytes": 429076,
+      "exactText": "朗報:熱、さがる\n君たちもご自愛〜！！！",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "朗報",
+      "fullText": "朗報:熱、さがる\n君たちもご自愛〜！！！"
     },
     {
       "n": 20,
@@ -347,9 +385,11 @@
       "textPreview": "忘 ドレッシング忘れた",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 417614,
-      "fullText": "ドレッシング忘れた",
-      "excerpt": "(cutJa)"
+      "bytes": 398355,
+      "exactText": "ドレッシング忘れた",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "ドレッシング忘れた",
+      "fullText": "ドレッシング忘れた"
     },
     {
       "n": 21,
@@ -364,9 +404,11 @@
       "textPreview": "土産 昨日おばあちゃんからもらったお土産♡ 全部の味を家族で分けっ子したよ🍫 美味しかった(,,•﹏•,,)💘 さん",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 521032,
-      "fullText": "昨日おばあちゃんからもらったお土産♡ 全部の味を家族で分けっ子したよ🍫 美味しかった(,,•﹏•,,)💘 さん",
-      "excerpt": "土産"
+      "bytes": 463884,
+      "exactText": "昨日おばあちゃんからもらったお土産♡\n全部の味を家族で分けっ子したよ🍫\n美味しかった(,,•﹏•,,)💘 #ease",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "土産",
+      "fullText": "昨日おばあちゃんからもらったお土産♡\n全部の味を家族で分けっ子したよ🍫\n美味しかった(,,•﹏•,,)💘 #ease"
     },
     {
       "n": 22,
@@ -381,9 +423,11 @@
       "textPreview": "お疲れ 最近寒いね😖🍃 今日も一日お疲れ様♡ おやすみー！😌😌😌",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 458666,
-      "fullText": "最近寒いね😖🍃 今日も一日お疲れ様♡ おやすみー！😌😌😌",
-      "excerpt": "お疲れ"
+      "bytes": 438883,
+      "exactText": "最近寒いね😖🍃\n今日も一日お疲れ様♡\nおやすみー！😌😌😌",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "お疲れ",
+      "fullText": "最近寒いね😖🍃\n今日も一日お疲れ様♡\nおやすみー！😌😌😌"
     },
     {
       "n": 23,
@@ -398,9 +442,11 @@
       "textPreview": "って かまって♡",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 396147,
-      "fullText": "かまって♡",
-      "excerpt": "って"
+      "bytes": 390842,
+      "exactText": "かまって♡",
+      "exactSource": "stock-fallback",
+      "excerpt": "って",
+      "fullText": "かまって♡"
     },
     {
       "n": 24,
@@ -415,9 +461,11 @@
       "textPreview": "買 買い忘れありませんか？ 今日が締切です‼️ ⚠️書いてほしいお名前を備考欄に書いてね⚠️",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 481693,
-      "fullText": "買い忘れありませんか？ 今日が締切です‼️ ⚠️書いてほしいお名前を備考欄に書いてね⚠️",
-      "excerpt": "(cutJa)"
+      "bytes": 442500,
+      "exactText": "買い忘れありませんか？\n今日が締切です‼️\n⚠️書いてほしいお名前を備考欄に書いてね⚠️",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "買い忘れありませんか？",
+      "fullText": "買い忘れありませんか？\n今日が締切です‼️\n⚠️書いてほしいお名前を備考欄に書いてね⚠️"
     },
     {
       "n": 25,
@@ -432,9 +480,11 @@
       "textPreview": "再 再チャレンジしたー✨",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 415032,
-      "fullText": "再チャレンジしたー✨",
-      "excerpt": "(cutJa)"
+      "bytes": 427350,
+      "exactText": "再チャレンジしたー✨#TikTok https://t.co/r3QNS6sSb4",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "再チャレンジしたー✨#TikTok https://t.co/r3QNS6sSb",
+      "fullText": "再チャレンジしたー✨#TikTok https://t.co/r3QNS6sSb4"
     },
     {
       "n": 26,
@@ -449,9 +499,11 @@
       "textPreview": "おはよう おはようございます❤︎",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 426242,
-      "fullText": "おはようございます❤︎",
-      "excerpt": "おはよう"
+      "bytes": 407936,
+      "exactText": "おはようございます❤︎",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "おはよう",
+      "fullText": "おはようございます❤︎"
     },
     {
       "n": 27,
@@ -466,9 +518,11 @@
       "textPreview": "無 またあげれて無かったねお写真🐰",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 446002,
-      "fullText": "またあげれて無かったねお写真🐰",
-      "excerpt": "(cutJa)"
+      "bytes": 420469,
+      "exactText": "またあげれて無かったねお写真🐰",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "またあげれて無かったねお写真🐰",
+      "fullText": "またあげれて無かったねお写真🐰"
     },
     {
       "n": 28,
@@ -483,9 +537,11 @@
       "textPreview": "新宿 今日は19:20～新宿！！",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 415077,
-      "fullText": "今日は19:20～新宿！！",
-      "excerpt": "新宿"
+      "bytes": 423062,
+      "exactText": "今日は19:20～新宿！！",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "新宿",
+      "fullText": "今日は19:20～新宿！！"
     },
     {
       "n": 29,
@@ -500,9 +556,11 @@
       "textPreview": "履 リアルはスウェパン履いてるし、なのはちゃんが撮るために着てるからブカブカだしすごくダサい中腰！笑笑笑笑",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 477731,
-      "fullText": "リアルはスウェパン履いてるし、なのはちゃんが撮るために着てるからブカブカだしすごくダサい中腰！笑笑笑笑",
-      "excerpt": "(cutJa)"
+      "bytes": 477976,
+      "exactText": "リアルはスウェパン履いてるし、なのはちゃんが撮るために着てるからブカブカだしすごくダサい中腰！笑笑笑笑",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "リアルはスウェパン履いてるし、なのはちゃんが撮るために着てるからブカブカだしすご",
+      "fullText": "リアルはスウェパン履いてるし、なのはちゃんが撮るために着てるからブカブカだしすごくダサい中腰！笑笑笑笑"
     },
     {
       "n": 30,
@@ -517,9 +575,11 @@
       "textPreview": "起 起きた𓂂(՞っ ̫ _՞)𓈒 𓂂𓏸 2度寝する",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 434173,
-      "fullText": "起きた𓂂(՞っ ̫ _՞)𓈒 𓂂𓏸 2度寝する",
-      "excerpt": "(cutJa)"
+      "bytes": 399031,
+      "exactText": "起きた𓂂(՞っ ̫ _՞)𓈒 𓂂𓏸\n2",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "起きた𓂂(՞っ ̫ _՞)𓈒 𓂂𓏸",
+      "fullText": "起きた𓂂(՞っ ̫ _՞)𓈒 𓂂𓏸\n2"
     },
     {
       "n": 31,
@@ -534,9 +594,11 @@
       "textPreview": "出 明日はこちらー❕ カルマからのスキュラで出ます😈🐦‍🔥 どちらのLIVEも一緒に遊びまくろうネ❕ まっているよー❕",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 482683,
-      "fullText": "明日はこちらー❕ カルマからのスキュラで出ます😈🐦‍🔥 どちらのLIVEも一緒に遊びまくろうネ❕ まっているよー❕",
-      "excerpt": "(cutJa)"
+      "bytes": 437675,
+      "exactText": "明日はこちらー❕\n\nカルマからのスキュラで出ます😈🐦‍🔥\n\nどちらのLIVEも一緒に遊びまくろうネ❕\nまっている",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "明日はこちらー❕",
+      "fullText": "明日はこちらー❕\n\nカルマからのスキュラで出ます😈🐦‍🔥\n\nどちらのLIVEも一緒に遊びまくろうネ❕\nまっている"
     },
     {
       "n": 32,
@@ -551,9 +613,11 @@
       "textPreview": "おは おはかんな☀",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 414184,
-      "fullText": "おはかんな☀",
-      "excerpt": "おは"
+      "bytes": 401572,
+      "exactText": "おはかんな☀",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "おは",
+      "fullText": "おはかんな☀"
     },
     {
       "n": 33,
@@ -568,9 +632,11 @@
       "textPreview": "枚 2枚目、1人だけ満面の笑みで恥ずかしい",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 444422,
-      "fullText": "2枚目、1人だけ満面の笑みで恥ずかしい",
-      "excerpt": "(cutJa)"
+      "bytes": 425474,
+      "exactText": "2枚目、1人だけ満面の笑みで恥ずかしい",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "2枚目、1人だけ満面の笑みで恥ずかしい",
+      "fullText": "2枚目、1人だけ満面の笑みで恥ずかしい"
     },
     {
       "n": 34,
@@ -585,9 +651,11 @@
       "textPreview": "好き タイを好きになった理由。",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 425079,
-      "fullText": "タイを好きになった理由。",
-      "excerpt": "好き"
+      "bytes": 432568,
+      "exactText": "タイを好きになった理由。#TikTok https://t.co/ZhiW9Tp2YR",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "好き",
+      "fullText": "タイを好きになった理由。#TikTok https://t.co/ZhiW9Tp2YR"
     },
     {
       "n": 35,
@@ -602,9 +670,11 @@
       "textPreview": "おはよ おはよう〜🐹🐹",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 413939,
-      "fullText": "おはよう〜🐹🐹",
-      "excerpt": "おはよ"
+      "bytes": 401456,
+      "exactText": "おはよう〜🐹",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "おはよ",
+      "fullText": "おはよう〜🐹"
     },
     {
       "n": 36,
@@ -619,9 +689,11 @@
       "textPreview": "前 アイドルになる前の10枚↔️アイドルになった後の10枚",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 441660,
-      "fullText": "アイドルになる前の10枚↔️アイドルになった後の10枚",
-      "excerpt": "(cutJa)"
+      "bytes": 428286,
+      "exactText": "アイドルになる前の10枚↔️アイドルになった後の10枚",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "アイドルになる前の10枚↔️アイドルになった後の10枚",
+      "fullText": "アイドルになる前の10枚↔️アイドルになった後の10枚"
     },
     {
       "n": 37,
@@ -636,9 +708,11 @@
       "textPreview": "実 実はこの日のせんせちゃん前髪あいながやってやったんだぜ⭐️⭐️ 可愛ゆくね？？？？( ᴗ̀ ̫ᴗ́ )♡",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 465790,
-      "fullText": "実はこの日のせんせちゃん前髪あいながやってやったんだぜ⭐️⭐️ 可愛ゆくね？？？？( ᴗ̀ ̫ᴗ́ )♡",
-      "excerpt": "(cutJa)"
+      "bytes": 438635,
+      "exactText": "実はこの日のせんせちゃん前髪あいながやってやったんだぜ⭐️⭐️\n\n可愛ゆくね？？？？( ᴗ̀ ̫ᴗ́ )♡",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "実はこの日のせんせちゃん前髪あいながやってやったんだぜ⭐️⭐️",
+      "fullText": "実はこの日のせんせちゃん前髪あいながやってやったんだぜ⭐️⭐️\n\n可愛ゆくね？？？？( ᴗ̀ ̫ᴗ́ )♡"
     },
     {
       "n": 38,
@@ -653,9 +727,11 @@
       "textPreview": "遅 遅刻( ̳•̥̥̥ ·̫ •̥̥̥ ̳ )",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 415193,
-      "fullText": "遅刻( ̳•̥̥̥ ·̫ •̥̥̥ ̳ )",
-      "excerpt": "(cutJa)"
+      "bytes": 416165,
+      "exactText": "遅刻( ̳•̥̥̥ ·̫ •̥̥̥ ̳ )\n#いいツインテールの日",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "遅刻( ̳•̥̥̥ ·̫ •̥̥̥ ̳ )",
+      "fullText": "遅刻( ̳•̥̥̥ ·̫ •̥̥̥ ̳ )\n#いいツインテールの日"
     },
     {
       "n": 39,
@@ -670,9 +746,11 @@
       "textPreview": "時 明日の12時までだよ‼️ 後悔のないように…ᴗ ̫ ᴗ♡",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 435575,
-      "fullText": "明日の12時までだよ‼️ 後悔のないように…ᴗ ̫ ᴗ♡",
-      "excerpt": "(cutJa)"
+      "bytes": 426669,
+      "exactText": "明日の12時までだよ‼️\n後悔のないように…ᴗ  ̫ ᴗ♡",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "明日の12時までだよ‼️",
+      "fullText": "明日の12時までだよ‼️\n後悔のないように…ᴗ  ̫ ᴗ♡"
     },
     {
       "n": 40,
@@ -687,9 +765,11 @@
       "textPreview": "前半 前半4枠空いてます！ いつもより早めの時間です！ぜひ！",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 419519,
-      "fullText": "前半4枠空いてます！ いつもより早めの時間です！ぜひ！",
-      "excerpt": "前半"
+      "bytes": 417727,
+      "exactText": "前半4枠空いてます！\nいつもより早めの時間です！ぜひ！",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "前半",
+      "fullText": "前半4枠空いてます！\nいつもより早めの時間です！ぜひ！"
     },
     {
       "n": 41,
@@ -704,9 +784,11 @@
       "textPreview": "髪 お話しよー！髪の毛変えたよー衣装！！😈",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 437536,
-      "fullText": "お話しよー！髪の毛変えたよー衣装！！😈",
-      "excerpt": "(cutJa)"
+      "bytes": 418082,
+      "exactText": "お話しよー！髪の毛変えたよー衣装！！😈",
+      "exactSource": "stock-fallback",
+      "excerpt": "お話しよー！髪の毛変えたよー衣装！！😈",
+      "fullText": "お話しよー！髪の毛変えたよー衣装！！😈"
     },
     {
       "n": 42,
@@ -721,9 +803,11 @@
       "textPreview": "原宿 明日は原宿RUIDOでライブです💜🪄 一般0円です！！ お待ちしてます💖",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 443268,
-      "fullText": "明日は原宿RUIDOでライブです💜🪄 一般0円です！！ お待ちしてます💖",
-      "excerpt": "原宿"
+      "bytes": 445355,
+      "exactText": "明日は原宿RUIDOでライブです💜🪄\n一般0円です！！\n\nお待ちしてま",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "原宿",
+      "fullText": "明日は原宿RUIDOでライブです💜🪄\n一般0円です！！\n\nお待ちしてま"
     },
     {
       "n": 43,
@@ -738,9 +822,11 @@
       "textPreview": "おはよう 寒すぎて布団から30分出られなかった、おはようございます（ｕωｕ）ᙆƶ",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 439286,
-      "fullText": "寒すぎて布団から30分出られなかった、おはようございます（ｕωｕ）ᙆƶ",
-      "excerpt": "おはよう"
+      "bytes": 435894,
+      "exactText": "寒すぎて布団から30分出られなかった、おはようございます（ｕωｕ）ᙆƶ",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "おはよう",
+      "fullText": "寒すぎて布団から30分出られなかった、おはようございます（ｕωｕ）ᙆƶ"
     },
     {
       "n": 44,
@@ -755,9 +841,11 @@
       "textPreview": "生涯 生涯共に過ごすことを誓います💍˚⌖. °",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 420823,
-      "fullText": "生涯共に過ごすことを誓います💍˚⌖. °",
-      "excerpt": "生涯"
+      "bytes": 403699,
+      "exactText": "生涯共に過ごすことを誓います💍˚⌖.",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "生涯",
+      "fullText": "生涯共に過ごすことを誓います💍˚⌖."
     },
     {
       "n": 45,
@@ -772,9 +860,11 @@
       "textPreview": "動画 動画オンファ販売しました〜時間遅くになっちゃってごめんね🥲明日着る制服！",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 460159,
-      "fullText": "動画オンファ販売しました〜時間遅くになっちゃってごめんね🥲明日着る制服！",
-      "excerpt": "動画"
+      "bytes": 476512,
+      "exactText": "動画オンファ販売しました〜時間遅くになっちゃってごめんね🥲明日着る制服！",
+      "exactSource": "stock-fallback",
+      "excerpt": "動画",
+      "fullText": "動画オンファ販売しました〜時間遅くになっちゃってごめんね🥲明日着る制服！"
     },
     {
       "n": 46,
@@ -789,9 +879,11 @@
       "textPreview": "分 あと30分で締切です！ 駆け込みお待ちしてます‼️‼️",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 456763,
-      "fullText": "あと30分で締切です！ 駆け込みお待ちしてます‼️‼️",
-      "excerpt": "(cutJa)"
+      "bytes": 433253,
+      "exactText": "あと30分で締切です！\n駆け込みお待ちしてます‼️‼️",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "あと30分で締切です！",
+      "fullText": "あと30分で締切です！\n駆け込みお待ちしてます‼️‼️"
     },
     {
       "n": 47,
@@ -806,9 +898,11 @@
       "textPreview": "好き なるほど、、みっちー好きになってきた、、",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 434753,
-      "fullText": "なるほど、、みっちー好きになってきた、、",
-      "excerpt": "好き"
+      "bytes": 416655,
+      "exactText": "なるほど、、みっちー好きになってきた、、",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "好き",
+      "fullText": "なるほど、、みっちー好きになってきた、、"
     },
     {
       "n": 48,
@@ -823,9 +917,11 @@
       "textPreview": "姉 ちょっとだけお姉さんになりたい、",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 432916,
-      "fullText": "ちょっとだけお姉さんになりたい、",
-      "excerpt": "(cutJa)"
+      "bytes": 437988,
+      "exactText": "ちょっとだけお姉さんになりたい、\n #地雷系  #地雷系女子  #自撮り界隈  #アイドル",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "ちょっとだけお姉さんになりたい、",
+      "fullText": "ちょっとだけお姉さんになりたい、\n #地雷系  #地雷系女子  #自撮り界隈  #アイドル"
     },
     {
       "n": 49,
@@ -840,9 +936,11 @@
       "textPreview": "お疲れ お疲れ様！！ みこがよしよししてあげるﾖｼﾖｼ(｡´･ω･)ﾉﾞ",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 442966,
-      "fullText": "お疲れ様！！ みこがよしよししてあげるﾖｼﾖｼ(｡´･ω･)ﾉﾞ",
-      "excerpt": "お疲れ"
+      "bytes": 433142,
+      "exactText": "お疲れ様！！\nみこがよしよししてあげるﾖｼﾖｼ(｡´･ω･)ﾉﾞ",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "お疲れ",
+      "fullText": "お疲れ様！！\nみこがよしよししてあげるﾖｼﾖｼ(｡´･ω･)ﾉﾞ"
     },
     {
       "n": 50,
@@ -857,15 +955,18 @@
       "textPreview": "日 15日(O_O)(O_O)(O_O)！！！！",
       "durationSec": 3.2,
       "displayDate": "2026-11-26",
-      "bytes": 415273,
-      "fullText": "15日(O_O)(O_O)(O_O)！！！！",
-      "excerpt": "(cutJa)"
+      "bytes": 401278,
+      "exactText": "15日(O_O)(O_O)(O_O)！！！！",
+      "exactSource": "fxtwitter-display",
+      "excerpt": "15日(O_O)(O_O)(O_O)！！！！",
+      "fullText": "15日(O_O)(O_O)(O_O)！！！！"
     }
   ],
   "cutPolicy": {
-    "cut1": "excerpt from full post body (cutJa / tip if tip is a real substring)",
-    "cut3": "full linked X post body (ja[1]), untruncated",
+    "cut1": "real substring excerpt of exact linked post body",
+    "cut3": "exact fxtwitter display text (ja paragraphs; no twin excerpt stack)",
     "displayDate": "2026-11-26",
-    "timezone": "Asia/Tokyo"
+    "timezone": "Asia/Tokyo",
+    "source": "api.fxtwitter.com display_text_range (stock fallback if 404)"
   }
 }

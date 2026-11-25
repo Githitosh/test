@@ -1,6 +1,6 @@
 # test — public humor clip preview
 
-Lightweight static preview of JA humor clips (~3.2s each) from private humor stock (`githito.xapi` `api` → `v1/stock-humor-ja.json`), limited to posts within the last 6 hours (Asia/Tokyo).
+Lightweight static preview of JA humor clips (~3.2s each) from private humor stock (`githito.xapi` `api` → `v1/stock-humor-ja.json`), about **10** clips from posts within the last 6 hours (Asia/Tokyo), including 2–3 おはよう系 when available.
 
 ## Pages
 

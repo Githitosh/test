@@ -1,181 +1,508 @@
 {
-  "selectedAt": "2026-11-25T16:14:21+09:00",
-  "cutoffAt": "2026-11-25T10:14:21+09:00",
-  "windowHours": 6,
+  "selectedAt": "2026-11-25T20:37:23.520Z",
+  "selectedAtJst": "2026-11-26T05:37:23+09:00",
   "timezone": "Asia/Tokyo",
+  "kind": "low-follower-3pack",
   "requested": 10,
-  "qualified": 33,
-  "shortfall": 0,
-  "ohaAvailable": 10,
-  "ohaSelected": 3,
+  "clipsPerPack": 3,
+  "clipDurationSec": 3.2,
+  "packDurationSec": 9.6,
   "stock": {
     "repo": "Githitosh/githito.xapi",
     "ref": "api",
     "path": "v1/stock-humor-ja.json",
-    "made": "2026-11-25T07:07:35Z",
-    "talks": 776,
-    "videos": 82
+    "made": "2026-11-25T20:11:56Z"
   },
-  "clips": [
+  "packs": [
     {
       "n": 1,
-      "id": "2125451744075460710",
-      "handle": "rune_bunnyla",
-      "url": "https://x.com/rune_bunnyla/status/2125451744075460710",
-      "at": "2026-11-25T04:49:19Z",
-      "atJst": "2026-11-25T13:49:19+09:00",
-      "ageHours": 2.417,
-      "kind": "morning",
-      "oha": true,
-      "score": 23.6,
-      "videoId": "vmwvs71bz2",
-      "textPreview": "おは おはう~❤️",
-      "file": "clips/clip-01-2125451744075460710.mp4",
-      "durationSec": 3.2
+      "file": "clips/pack-01-2125374537693024647.mp4",
+      "storeFile": "pack-01-2125374537693024647.mp4",
+      "source": "video-consecutive",
+      "videoId": "vmwvs71bz0",
+      "durationSec": 9.6,
+      "bytes": 1302673,
+      "handles": [
+        "en_mirei91",
+        "org_tsubura",
+        "sr_gachamaru"
+      ],
+      "clips": [
+        {
+          "order": 1,
+          "id": "2125374537693024647",
+          "handle": "en_mirei91",
+          "url": "https://x.com/eN_mirei91/status/2125374537693024647",
+          "at": "2026-11-24T23:42:31Z",
+          "kind": "morning",
+          "textPreview": "おはよ おはよう〜🐹🐹",
+          "partFile": "pack-01-c1-2125374537693024647.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 2,
+          "id": "2125365636209791382",
+          "handle": "org_tsubura",
+          "url": "https://x.com/org_tsubura/status/2125365636209791382",
+          "at": "2026-11-24T23:07:09Z",
+          "kind": "morning",
+          "textPreview": "おはよ〜 おはよ〜🎶 あともうちょいで2026年も終わりと思ったらはやすぎてびびるよね‥",
+          "partFile": "pack-01-c2-2125365636209791382.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 3,
+          "id": "2125382467452625364",
+          "handle": "sr_gachamaru",
+          "url": "https://x.com/SR_gachamaru/status/2125382467452625364",
+          "at": "2026-11-25T00:14:02Z",
+          "kind": "love",
+          "textPreview": "忘 12:00までです❗️ お迎え忘れ、しないようにね…♡",
+          "partFile": "pack-01-c3-2125382467452625364.mp4",
+          "durationSec": 3.2
+        }
+      ]
     },
     {
       "n": 2,
-      "id": "2125472498594832473",
-      "handle": "SKAlice_lilith",
-      "url": "https://x.com/SKAlice_lilith/status/2125472498594832473",
-      "at": "2026-11-25T06:11:47Z",
-      "atJst": "2026-11-25T15:11:47+09:00",
-      "ageHours": 1.043,
-      "kind": "morning",
-      "oha": true,
-      "score": 22.1,
-      "videoId": "vmwvs71bz2",
-      "textPreview": "おはよー おはよー、最近柚子胡椒にハマっている",
-      "file": "clips/clip-02-2125472498594832473.mp4",
-      "durationSec": 3.2
+      "file": "clips/pack-02-2124979301154160692.mp4",
+      "storeFile": "pack-02-2124979301154160692.mp4",
+      "source": "video-consecutive",
+      "videoId": "vmwuaaypd2",
+      "durationSec": 9.6,
+      "bytes": 1311942,
+      "handles": [
+        "kanna_granciel",
+        "taniguti_karen",
+        "hao_7m"
+      ],
+      "clips": [
+        {
+          "order": 1,
+          "id": "2124979301154160692",
+          "handle": "kanna_granciel",
+          "url": "https://x.com/kanna_GranCiel/status/2124979301154160692",
+          "at": "2026-11-23T21:32:00Z",
+          "kind": "morning",
+          "textPreview": "おは おはかんな☀",
+          "partFile": "pack-02-c1-2124979301154160692.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 2,
+          "id": "2125032434429489441",
+          "handle": "taniguti_karen",
+          "url": "https://x.com/taniguti_karen/status/2125032434429489441",
+          "at": "2026-11-24T01:03:08Z",
+          "kind": "other",
+          "textPreview": "北海道 北海道弁じゃないです😢ただの誤字だった😭 北海道弁だったら、ひっつかして？かな？？",
+          "partFile": "pack-02-c2-2125032434429489441.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 3,
+          "id": "2125001447213523335",
+          "handle": "hao_7m",
+          "url": "https://x.com/Hao_7M/status/2125001447213523335",
+          "at": "2026-11-23T23:00:00Z",
+          "kind": "other",
+          "textPreview": "無 またあげれて無かったねお写真🐰",
+          "partFile": "pack-02-c3-2125001447213523335.mp4",
+          "durationSec": 3.2
+        }
+      ]
     },
     {
       "n": 3,
-      "id": "2125407503425143209",
-      "handle": "ami_k_pls",
-      "url": "https://x.com/ami_k_pls/status/2125407503425143209",
-      "at": "2026-11-25T01:53:31Z",
-      "atJst": "2026-11-25T10:53:31+09:00",
-      "ageHours": 5.347,
-      "kind": "morning",
-      "oha": true,
-      "score": 19,
-      "videoId": "vmwvs71bz0",
-      "textPreview": "おはよー！ おはよー！きょもがんばろ(๑′ᴗ‵๑)",
-      "file": "clips/clip-03-2125407503425143209.mp4",
-      "durationSec": 3.2
+      "file": "clips/pack-03-2125388291822542917.mp4",
+      "storeFile": "pack-03-2125388291822542917.mp4",
+      "source": "video-wanted-subseq",
+      "videoId": "vmwvsth2b1",
+      "durationSec": 9.6,
+      "bytes": 1264659,
+      "handles": [
+        "nanami_mabu",
+        "meshi_ria",
+        "matsuba_kanna"
+      ],
+      "clips": [
+        {
+          "order": 1,
+          "id": "2125388291822542917",
+          "handle": "nanami_mabu",
+          "url": "https://x.com/nanami_mabu/status/2125388291822542917",
+          "at": "2026-11-25T00:37:11Z",
+          "kind": "morning",
+          "textPreview": "おはよ おはよう- ̫ -",
+          "partFile": "pack-03-c1-2125388291822542917.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 2,
+          "id": "2125349742679126167",
+          "handle": "meshi_ria",
+          "url": "https://x.com/meshi_ria/status/2125349742679126167",
+          "at": "2026-11-24T22:04:00Z",
+          "kind": "morning",
+          "textPreview": "おはよ おはよう〜🎶",
+          "partFile": "pack-03-c2-2125349742679126167.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 3,
+          "id": "2125365345154224228",
+          "handle": "matsuba_kanna",
+          "url": "https://x.com/matsuba_kanna/status/2125365345154224228",
+          "at": "2026-11-24T23:06:00Z",
+          "kind": "love",
+          "textPreview": "すき 和食すきすぎてこの顔( ^ᵕ^)",
+          "partFile": "pack-03-c3-2125365345154224228.mp4",
+          "durationSec": 3.2
+        }
+      ]
     },
     {
       "n": 4,
-      "id": "2125481773312389224",
-      "handle": "stalove_saya",
-      "url": "https://x.com/stalove_saya/status/2125481773312389224",
-      "at": "2026-11-25T06:48:38Z",
-      "atJst": "2026-11-25T15:48:38+09:00",
-      "ageHours": 0.429,
-      "kind": "other",
-      "oha": false,
-      "score": 19,
-      "videoId": "vmwvs71bz2",
-      "textPreview": "かわいい 姪っ子がちかわいい",
-      "file": "clips/clip-04-2125481773312389224.mp4",
-      "durationSec": 3.2
+      "file": "clips/pack-04-2125466808862032219.mp4",
+      "storeFile": "pack-04-2125466808862032219.mp4",
+      "source": "video-wanted-subseq",
+      "videoId": "vmwvsth2b8",
+      "durationSec": 9.6,
+      "bytes": 1293356,
+      "handles": [
+        "eina_amarizu",
+        "nanami_mabu",
+        "killa_midion"
+      ],
+      "clips": [
+        {
+          "order": 1,
+          "id": "2125466808862032219",
+          "handle": "eina_amarizu",
+          "url": "https://x.com/eina_amarizu/status/2125466808862032219",
+          "at": "2026-11-25T05:49:11Z",
+          "kind": "other",
+          "textPreview": "寝 寝るご飯寝るご飯寝るバイト寝るご飯寝るご飯学校（遅刻）寝るご飯寝るご飯寝る",
+          "partFile": "pack-04-c1-2125466808862032219.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 2,
+          "id": "2125431061064904843",
+          "handle": "nanami_mabu",
+          "url": "https://x.com/nanami_mabu/status/2125431061064904843",
+          "at": "2026-11-25T03:27:08Z",
+          "kind": "other",
+          "textPreview": "日 15日(O_O)(O_O)(O_O)！！！！",
+          "partFile": "pack-04-c2-2125431061064904843.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 3,
+          "id": "2125429322295181707",
+          "handle": "killa_midion",
+          "url": "https://x.com/Killa_MiDiON/status/2125429322295181707",
+          "at": "2026-11-25T03:20:13Z",
+          "kind": "other",
+          "textPreview": "忘 ドレッシング忘れた",
+          "partFile": "pack-04-c3-2125429322295181707.mp4",
+          "durationSec": 3.2
+        }
+      ]
     },
     {
       "n": 5,
-      "id": "2125477475631477100",
-      "handle": "PS_himari0330",
-      "url": "https://x.com/PS_himari0330/status/2125477475631477100",
-      "at": "2026-11-25T06:31:34Z",
-      "atJst": "2026-11-25T15:31:34+09:00",
-      "ageHours": 0.713,
-      "kind": "other",
-      "oha": false,
-      "score": 18.5,
-      "videoId": "vmwvs71bz2",
-      "textPreview": "配信 ひまりのゆるゆるーむ 配信中!! 初見さん大歓迎！！✨️",
-      "file": "clips/clip-05-2125477475631477100.mp4",
-      "durationSec": 3.2
+      "file": "clips/pack-05-2124886533237010601.mp4",
+      "storeFile": "pack-05-2124886533237010601.mp4",
+      "source": "video-wanted-subseq",
+      "videoId": "vmwu6sfiv9",
+      "durationSec": 9.6,
+      "bytes": 1245401,
+      "handles": [
+        "yume___ch",
+        "dnyan_yuzuki",
+        "rin__granciel"
+      ],
+      "clips": [
+        {
+          "order": 1,
+          "id": "2124886533237010601",
+          "handle": "yume___ch",
+          "url": "https://x.com/yume___CH/status/2124886533237010601",
+          "at": "2026-11-23T15:23:22Z",
+          "kind": "other",
+          "textPreview": "見 見逃さないでください。",
+          "partFile": "pack-05-c1-2124886533237010601.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 2,
+          "id": "2124887339382272292",
+          "handle": "dnyan_yuzuki",
+          "url": "https://x.com/Dnyan_yuzuki/status/2124887339382272292",
+          "at": "2026-11-23T15:26:34Z",
+          "kind": "other",
+          "textPreview": "枚 2枚目、1人だけ満面の笑みで恥ずかしい",
+          "partFile": "pack-05-c2-2124887339382272292.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 3,
+          "id": "2124867092575109387",
+          "handle": "rin__granciel",
+          "url": "https://x.com/rin__GranCiel/status/2124867092575109387",
+          "at": "2026-11-23T14:06:07Z",
+          "kind": "other",
+          "textPreview": "細 細かいカタカナは難しかったです笑",
+          "partFile": "pack-05-c3-2124867092575109387.mp4",
+          "durationSec": 3.2
+        }
+      ]
     },
     {
       "n": 6,
-      "id": "2125477528471224365",
-      "handle": "AVACLUB_OTO",
-      "url": "https://x.com/AVACLUB_OTO/status/2125477528471224365",
-      "at": "2026-11-25T06:31:46Z",
-      "atJst": "2026-11-25T15:31:46+09:00",
-      "ageHours": 0.71,
-      "kind": "other",
-      "oha": false,
-      "score": 17.6,
-      "videoId": "vmwvs71bz3",
-      "textPreview": "起 起きたﾅﾘ(^^)v",
-      "file": "clips/clip-06-2125477528471224365.mp4",
-      "durationSec": 3.2
+      "file": "clips/pack-06-2124665045359776154.mp4",
+      "storeFile": "pack-06-2124665045359776154.mp4",
+      "source": "time-order-wanted",
+      "videoId": "",
+      "durationSec": 9.6,
+      "bytes": 1235899,
+      "handles": [
+        "llkl_koyomi",
+        "cprc_coa",
+        "kachidoki_mogu"
+      ],
+      "clips": [
+        {
+          "order": 1,
+          "id": "2124665045359776154",
+          "handle": "llkl_koyomi",
+          "url": "https://x.com/LLkl_Koyomi/status/2124665045359776154",
+          "at": "2026-11-23T00:43:15Z",
+          "kind": "morning",
+          "textPreview": "おはよう 寒すぎて布団から30分出られなかった、おはようございます（ｕωｕ）ᙆƶ",
+          "partFile": "pack-06-c1-2124665045359776154.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 2,
+          "id": "2124788049334972736",
+          "handle": "cprc_coa",
+          "url": "https://x.com/cprc_coa/status/2124788049334972736",
+          "at": "2026-11-23T08:52:02Z",
+          "kind": "other",
+          "textPreview": "推 きみの推しメン⬇️",
+          "partFile": "pack-06-c2-2124788049334972736.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 3,
+          "id": "2124798290709635103",
+          "handle": "kachidoki_mogu",
+          "url": "https://x.com/KACHIDOKI_mogu/status/2124798290709635103",
+          "at": "2026-11-23T09:32:44Z",
+          "kind": "other",
+          "textPreview": "ぴょ ぴょーん",
+          "partFile": "pack-06-c3-2124798290709635103.mp4",
+          "durationSec": 3.2
+        }
+      ]
     },
     {
       "n": 7,
-      "id": "2125482451577577964",
-      "handle": "kurumiai_AMO",
-      "url": "https://x.com/kurumiai_AMO/status/2125482451577577964",
-      "at": "2026-11-25T06:51:20Z",
-      "atJst": "2026-11-25T15:51:20+09:00",
-      "ageHours": 0.384,
-      "kind": "other",
-      "oha": false,
-      "score": 16.8,
-      "videoId": "vmwvs71bz3",
-      "textPreview": "起 起床",
-      "file": "clips/clip-07-2125482451577577964.mp4",
-      "durationSec": 3.2
+      "file": "clips/pack-07-2124805158102081755.mp4",
+      "storeFile": "pack-07-2124805158102081755.mp4",
+      "source": "time-order-wanted",
+      "videoId": "",
+      "durationSec": 9.6,
+      "bytes": 1300689,
+      "handles": [
+        "ran_mizutama",
+        "kanna_granciel",
+        "meluq_kohaku"
+      ],
+      "clips": [
+        {
+          "order": 1,
+          "id": "2124805158102081755",
+          "handle": "ran_mizutama",
+          "url": "https://x.com/ran_mizutama/status/2124805158102081755",
+          "at": "2026-11-23T10:00:01Z",
+          "kind": "other",
+          "textPreview": "前 アイドルになる前の10枚↔️アイドルになった後の10枚",
+          "partFile": "pack-07-c1-2124805158102081755.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 2,
+          "id": "2124820687982629169",
+          "handle": "kanna_granciel",
+          "url": "https://x.com/kanna_GranCiel/status/2124820687982629169",
+          "at": "2026-11-23T11:01:43Z",
+          "kind": "other",
+          "textPreview": "月 今日もお月さまもお星さまもよく見えるね！とっても綺麗だよ！",
+          "partFile": "pack-07-c2-2124820687982629169.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 3,
+          "id": "2124832334612672996",
+          "handle": "meluq_kohaku",
+          "url": "https://x.com/meluQ_kohaku/status/2124832334612672996",
+          "at": "2026-11-23T11:48:00Z",
+          "kind": "love",
+          "textPreview": "投稿 みてーーーー こは♡の投稿動画を楽しみましょう！",
+          "partFile": "pack-07-c3-2124832334612672996.mp4",
+          "durationSec": 3.2
+        }
+      ]
     },
     {
       "n": 8,
-      "id": "2125464805654045120",
-      "handle": "TORIKO_yuhi",
-      "url": "https://x.com/TORIKO_yuhi/status/2125464805654045120",
-      "at": "2026-11-25T05:41:13Z",
-      "atJst": "2026-11-25T14:41:13+09:00",
-      "ageHours": 1.552,
-      "kind": "other",
-      "oha": false,
-      "score": 16.8,
-      "videoId": "vmwvs71bz3",
-      "textPreview": "時 20時から配信するー！！ きてねーーーーーーー",
-      "file": "clips/clip-08-2125464805654045120.mp4",
-      "durationSec": 3.2
+      "file": "clips/pack-08-2124840679637717069.mp4",
+      "storeFile": "pack-08-2124840679637717069.mp4",
+      "source": "time-order-wanted",
+      "videoId": "",
+      "durationSec": 9.6,
+      "bytes": 1359468,
+      "handles": [
+        "dnyan_yuzuki",
+        "pmiw_neon",
+        "karma_miku"
+      ],
+      "clips": [
+        {
+          "order": 1,
+          "id": "2124840679637717069",
+          "handle": "dnyan_yuzuki",
+          "url": "https://x.com/Dnyan_yuzuki/status/2124840679637717069",
+          "at": "2026-11-23T12:21:10Z",
+          "kind": "other",
+          "textPreview": "会いたい！ 祝日も来てくれてありがとう！ 3連休みんなのおかげで楽しかった✨️ 次は木曜日の主催ライブです！！みんな会いたい！",
+          "partFile": "pack-08-c1-2124840679637717069.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 2,
+          "id": "2124841784622911836",
+          "handle": "pmiw_neon",
+          "url": "https://x.com/pmiw_neon/status/2124841784622911836",
+          "at": "2026-11-23T12:25:33Z",
+          "kind": "other",
+          "textPreview": "下 下の動画見た方、これが実際の写真です😱 (後ろに注文)👇🏻👇🏻👇🏻👇🏻👇🏻",
+          "partFile": "pack-08-c2-2124841784622911836.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 3,
+          "id": "2124841906232582187",
+          "handle": "karma_miku",
+          "url": "https://x.com/karma_miku/status/2124841906232582187",
+          "at": "2026-11-23T12:26:02Z",
+          "kind": "other",
+          "textPreview": "楽 とても楽しかったなん",
+          "partFile": "pack-08-c3-2124841906232582187.mp4",
+          "durationSec": 3.2
+        }
+      ]
     },
     {
       "n": 9,
-      "id": "2125448220822360385",
-      "handle": "su__chan59",
-      "url": "https://x.com/su__chan59/status/2125448220822360385",
-      "at": "2026-11-25T04:35:19Z",
-      "atJst": "2026-11-25T13:35:19+09:00",
-      "ageHours": 2.651,
-      "kind": "love",
-      "oha": false,
-      "score": 16.6,
-      "videoId": "vmwvs71bz2",
-      "textPreview": "曲 ぷゆさんバースデーライブのコラボ曲解禁❤️‍🔥",
-      "file": "clips/clip-09-2125448220822360385.mp4",
-      "durationSec": 3.2
+      "file": "clips/pack-09-2124844214970364246.mp4",
+      "storeFile": "pack-09-2124844214970364246.mp4",
+      "source": "time-order-wanted",
+      "videoId": "",
+      "durationSec": 9.6,
+      "bytes": 1318921,
+      "handles": [
+        "pureme_mico",
+        "kaiju_meru",
+        "karma_miku"
+      ],
+      "clips": [
+        {
+          "order": 1,
+          "id": "2124844214970364246",
+          "handle": "pureme_mico",
+          "url": "https://x.com/pureme_mico/status/2124844214970364246",
+          "at": "2026-11-23T12:35:13Z",
+          "kind": "home",
+          "textPreview": "お疲れ お疲れ様！！ みこがよしよししてあげるﾖｼﾖｼ(｡´･ω･)ﾉﾞ",
+          "partFile": "pack-09-c1-2124844214970364246.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 2,
+          "id": "2124850193095123368",
+          "handle": "kaiju_meru",
+          "url": "https://x.com/kaiju_meru/status/2124850193095123368",
+          "at": "2026-11-23T12:58:58Z",
+          "kind": "other",
+          "textPreview": "麻辣 麻辣活一緒にする？",
+          "partFile": "pack-09-c2-2124850193095123368.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 3,
+          "id": "2124859303962223043",
+          "handle": "karma_miku",
+          "url": "https://x.com/karma_miku/status/2124859303962223043",
+          "at": "2026-11-23T13:35:10Z",
+          "kind": "other",
+          "textPreview": "出 明日はこちらー❕ カルマからのスキュラで出ます😈🐦‍🔥 どちらのLIVEも一緒に遊びまくろうネ❕ まっているよー❕",
+          "partFile": "pack-09-c3-2124859303962223043.mp4",
+          "durationSec": 3.2
+        }
+      ]
     },
     {
       "n": 10,
-      "id": "2125455322823455153",
-      "handle": "REI_ELEVYZ",
-      "url": "https://x.com/REI_ELEVYZ/status/2125455322823455153",
-      "at": "2026-11-25T05:03:32Z",
-      "atJst": "2026-11-25T14:03:32+09:00",
-      "ageHours": 2.18,
-      "kind": "other",
-      "oha": false,
-      "score": 16.5,
-      "videoId": "vmwvs71bz3",
-      "textPreview": "外 外あったけ〜〜",
-      "file": "clips/clip-10-2125455322823455153.mp4",
-      "durationSec": 3.2
+      "file": "clips/pack-10-2124860308045046082.mp4",
+      "storeFile": "pack-10-2124860308045046082.mp4",
+      "source": "time-order-wanted",
+      "videoId": "",
+      "durationSec": 9.6,
+      "bytes": 1354099,
+      "handles": [
+        "azu__ch",
+        "hao_7m",
+        "meluq_kohaku"
+      ],
+      "clips": [
+        {
+          "order": 1,
+          "id": "2124860308045046082",
+          "handle": "azu__ch",
+          "url": "https://x.com/azu__CH/status/2124860308045046082",
+          "at": "2026-11-23T13:39:10Z",
+          "kind": "other",
+          "textPreview": "出演 出演して頂いた皆さん、本当にありがとうございました😭",
+          "partFile": "pack-10-c1-2124860308045046082.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 2,
+          "id": "2124875654235836683",
+          "handle": "hao_7m",
+          "url": "https://x.com/Hao_7M/status/2124875654235836683",
+          "at": "2026-11-23T14:40:08Z",
+          "kind": "love",
+          "textPreview": "かわいい 2枚目もかわいいので見てねー♩♡ ビラ配り終わりに撮ったけどめーちゃ寒かったね！！！",
+          "partFile": "pack-10-c2-2124875654235836683.mp4",
+          "durationSec": 3.2
+        },
+        {
+          "order": 3,
+          "id": "2124876947985748139",
+          "handle": "meluq_kohaku",
+          "url": "https://x.com/meluQ_kohaku/status/2124876947985748139",
+          "at": "2026-11-23T14:45:17Z",
+          "kind": "love",
+          "textPreview": "時 明日の12時までだよ‼️ 後悔のないように…ᴗ ̫ ᴗ♡",
+          "partFile": "pack-10-c3-2124876947985748139.mp4",
+          "durationSec": 3.2
+        }
+      ]
     }
   ]
 }

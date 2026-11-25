@@ -1,18 +1,15 @@
-# test — public humor 3-pack preview
+# Githitosh/test — Humor clip preview
 
-Static preview of **10** JA humor packs. Each pack is **3 consecutive コマ** (3×3.2s ≈ 9.6s MP4) drawn from the 50 lowest-follower registered+filter-pass humor accounts (stock in `githito.xapi` `api` → `v1/stock-humor-ja.json`).
+Public GitHub Pages preview of JA humor MP4 clips.
 
-## Pages
+**Live:** https://githitosh.github.io/test/
 
-**https://githitosh.github.io/test/**
+## Current set
 
-## Contents
+**50** separate single-clip videos (1コマ · ~3.2s each) — one per account from the 50 lowest-follower registered+filter-pass humor accounts (`docs/humor-video-accounts-low-followers-50.txt` in the Project store). No 3-consecutive packs.
 
-| Path | What |
-| --- | --- |
-| `index.html` | Video + ⬇️ MP4 download (button) + **plain-text** status URLs with **Copy** (no `<a href>` on the page) |
-| `clips/pack-NN-*.mp4` | 3-clip concatenated Phone MP4s (URL burned on frames) |
-| `clips/manifest.json` | Pack metadata (handles, status URLs, source order) |
-| `.nojekyll` | Allow Pages to serve as-is |
+- Status URL: plain text + **Copy** (clean `https://x.com/…`). No permanent `<a href>`.
+- Download: MP4 per clip.
+- URL is also burned onto frames (`urlOnVideo`).
 
-No player stack, no tokens, no private stock JSON. Copy uses a **clean** `https://x.com/.../status/...` string (openable). X may still show a link card when that text is pasted into a post — that is X’s behavior. We do **not** ZWSP-break URLs (that would block click-through).
+Source stock: `Githitosh/githito.xapi` `api` → `v1/stock-humor-ja.json`. Encoded with `hosts/reply_movies/encode-one.html` + ffmpeg.

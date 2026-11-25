@@ -1,44 +1,94 @@
-[
-  {
-    "n": 1,
-    "file": "clips/clip-01-2125205699475243288.mp4",
-    "id": "2125205699475243288",
-    "handle": "rougebook_runa",
-    "url": "https://x.com/rougebook_runa/status/2125205699475243288",
-    "at": "2026-11-24T12:31:37Z",
-    "kind": "icha",
-    "score": 16.8,
-    "videoId": "vmwurbfzi7",
-    "slot": "night",
-    "durationSec": 3.2,
-    "textPreview": "ちゅ はふちゅ♡"
+{
+  "selectedAt": "2026-11-25T10:23:37.874200+09:00",
+  "cutoffAt": "2026-11-25T04:23:37.874200+09:00",
+  "windowHours": 6,
+  "timezone": "Asia/Tokyo",
+  "requested": 5,
+  "qualified": 20,
+  "shortfall": 0,
+  "stock": {
+    "repo": "Githitosh/githito.xapi",
+    "ref": "api",
+    "path": "v1/stock-humor-ja.json",
+    "made": "2026-11-25T01:22:27Z",
+    "talks": 677,
+    "videos": 71
   },
-  {
-    "n": 2,
-    "file": "clips/clip-02-2125254179518361642.mp4",
-    "id": "2125254179518361642",
-    "handle": "HBN_mii",
-    "url": "https://x.com/HBN_mii/status/2125254179518361642",
-    "at": "2026-11-24T15:44:16Z",
-    "kind": "icha",
-    "score": 16.3,
-    "videoId": "vmwuxifpv3",
-    "slot": "night",
-    "durationSec": 3.2,
-    "textPreview": "大好き 本当に大好きです"
-  },
-  {
-    "n": 3,
-    "file": "clips/clip-03-2125180178565640405.mp4",
-    "id": "2125180178565640405",
-    "handle": "sora__bugg",
-    "url": "https://x.com/sora__bugg/status/2125180178565640405",
-    "at": "2026-11-24T10:50:13Z",
-    "kind": "icha",
-    "score": 15,
-    "videoId": "vmwurbfzi8",
-    "slot": "night",
-    "durationSec": 3.2,
-    "textPreview": "時 今日の20時〜あおいちゃんの生誕パック発売されます♡ｶﾜｲｲﾎｼｲ♡ 生誕祭も楽しみだな〜ﾜｸﾜｸ ﾏﾓﾅｸ‼️‼️"
-  }
-]
+  "clips": [
+    {
+      "id": "2125391432538259554",
+      "handle": "chizumin_spica",
+      "url": "https://x.com/chizumin_spica/status/2125391432538259554",
+      "at": "2026-11-25T00:49:40Z",
+      "atJst": "2026-11-25T09:49:40.037000+09:00",
+      "ageHours": 0.566,
+      "kind": "other",
+      "score": 16.0,
+      "videoId": "vmwvfv8ev1",
+      "textPreview": "新宿 今日は19:20～新宿！！",
+      "n": 1,
+      "file": "clips/clip-01-2125391432538259554.mp4",
+      "durationSec": 3.2
+    },
+    {
+      "id": "2125361985743474965",
+      "handle": "tenten_kohaku",
+      "url": "https://x.com/tenten_kohaku/status/2125361985743474965",
+      "at": "2026-11-24T22:52:39Z",
+      "atJst": "2026-11-25T07:52:39.374000+09:00",
+      "ageHours": 2.516,
+      "kind": "other",
+      "score": 10.3,
+      "videoId": "vmwvfv8eva",
+      "textPreview": "夜通 こはよー‼️‼️‼️ 夜通しずっと作業していて今ご帰宅中です💦 後で少しだけ配信するね‼️",
+      "n": 2,
+      "file": "clips/clip-02-2125361985743474965.mp4",
+      "durationSec": 3.2
+    },
+    {
+      "id": "2125317839016075319",
+      "handle": "nemuri_shokuzai",
+      "url": "https://x.com/nemuri_shokuzai/status/2125317839016075319",
+      "at": "2026-11-24T19:57:13Z",
+      "atJst": "2026-11-25T04:57:13.974000+09:00",
+      "ageHours": 5.44,
+      "kind": "other",
+      "score": 7.5,
+      "videoId": "vmwvfv8evb",
+      "textPreview": "早 ねむりちゃん早く寝るって言ったじゃん‼️まだお風呂入ってないじゃん‼️もう朝になるよ‼️ぎょ〜〜〜‼️",
+      "n": 3,
+      "file": "clips/clip-03-2125317839016075319.mp4",
+      "durationSec": 3.2
+    },
+    {
+      "id": "2125356560646053892",
+      "handle": "ochapa_sakura",
+      "url": "https://x.com/ochapa_sakura/status/2125356560646053892",
+      "at": "2026-11-24T22:31:05Z",
+      "atJst": "2026-11-25T07:31:05.930000+09:00",
+      "ageHours": 2.876,
+      "kind": "morning",
+      "score": 28.1,
+      "videoId": "vmwvfv8ev0",
+      "textPreview": "おはよう♡ おはよう♡ 大阪ただいまああああ",
+      "n": 4,
+      "file": "clips/clip-04-2125356560646053892.mp4",
+      "durationSec": 3.2
+    },
+    {
+      "id": "2125355621201654107",
+      "handle": "lilygakuyuina",
+      "url": "https://x.com/lilygakuyuina/status/2125355621201654107",
+      "at": "2026-11-24T22:27:21Z",
+      "atJst": "2026-11-25T07:27:21.949000+09:00",
+      "ageHours": 2.938,
+      "kind": "other",
+      "score": 15.7,
+      "videoId": "vmwvfv8ev1",
+      "textPreview": "つい ついんてーる",
+      "n": 5,
+      "file": "clips/clip-05-2125355621201654107.mp4",
+      "durationSec": 3.2
+    }
+  ]
+}
